@@ -1,0 +1,547 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10%;
+    top: 0;
+}
+
+header.sticky{
+    background: #fff;
+}
+
+.header{
+    z-index: 9;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.firstnav i{
+    font-size: 20px;
+}
+
+.num{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navigation{
+    display: flex;
+   align-items: center;
+   border: none;
+   gap: 20px;
+}
+
+.navigation button{
+    width: 70px;
+    height: 40px;
+    border-radius: 500px;
+    border: none;
+}
+
+.deliverybutton {
+    display: none;
+}
+
+.navigation .useremblom{
+    display: none;
+}
+
+.num{
+    margin-inline-end: auto;
+    text-decoration: none;
+}
+
+.firstnav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.firstnav i{
+    color: black;
+}
+
+.navlogin a{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.logina{
+    text-decoration: none;
+}
+
+.navsign a{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+/* Home */
+
+.homepage{
+    background-image: url(image1.webp);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homeorder{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    width: 90%;
+}
+
+.threeboxbar{
+    display: flex;
+}
+
+.homeorder h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: black;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+.threeboxbar{
+    margin-top: 7%;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 700px;
+    width: 100%;
+}
+
+.threebox{
+    background-color: #fff;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    height: 55px;
+    flex: 1;
+}
+
+.time{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.homebutton button{
+    height: 100%;
+    padding: 0 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.location{
+    padding-top: 12px;
+}
+
+.signhome{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.signhome span{
+    text-decoration: underline;
+}
+
+/* next home */
+
+.imgsection{
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+}
+
+.img img{
+  width: 95%;
+}
+
+.feed{
+    font-size: 28px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.createacc{
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+/* Map section */
+
+.map{
+    margin-top: 10%;
+    padding: 0px 40px;
+}
+
+.mapheading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapheading h2{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.mapheading a{
+    text-decoration: underline;
+    font-weight: 500;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.maplocation iframe{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.spots{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+}
+
+.firstcolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.firstcolumn a{
+    font-size: 17px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.secondspaces{
+    margin-top: 5%;
+}
+
+.line{
+    color: rgb(156, 154, 154);
+    margin-top: 10%;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 7%;
+    padding: 0px 40px;
+}
+
+.footerdiv{
+    display: flex;
+    margin-left: 30px;
+}
+
+.footerimages{
+    width: 40%;
+}
+
+.footerplayimg{
+    margin-top: 190px;
+}
+
+.footerplayimg img{
+    width: 25%;
+    height: 20%;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 40px;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+}
+
+.paragraph a{
+    font-size: 17px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.line2{
+    color: rgb(219, 213, 213);
+    margin-top: 20px;
+    width: 94%;
+    margin-left: 35px;
+}
+
+.lastfooter{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footericons{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footeritems{
+  display: flex;
+  flex-direction: column;
+  align-items: end  ;
+}
+
+.footerprivacy{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.twoparalast{
+    display: flex;
+    width: max-content;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 100%;
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    
+    .lastfooter{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 992px) {
+    
+    .footeritems{
+
+        align-items: start;
+    }
+
+    .footerprivacy{
+        flex-direction: column;
+    }
+
+    .twoparalast{
+        flex-direction: column;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .deliverybutton{
+        display: flex;
+        justify-content: flex-start;
+        width: 70%;
+    }
+
+    .deliverybutton button{
+        min-width: 45%;
+        border-radius: 25px;
+        padding-bottom: 6px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    
+
+    /* home */
+
+    .homepage{
+        background-image: url(image1.webp);   
+        background-position: center;     
+    }
+
+    .homeorder{
+        top: 15%;
+    }
+
+    .homeorder h1{
+        font-size: 45px;
+    }
+
+    .threeboxbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .threebox{
+        width: 95%;
+    }
+
+    .time{
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        height: 50px;
+        padding: 0 10px;
+    }
+
+   .clocktime a{
+      margin-left: 10px;
+   }
+
+    .homebutton button{
+        width: 95%;
+        height: 50px;
+    }
+
+    /* next home */
+
+    .imgsection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    /* map */
+
+    .spots{
+        gap: 10%;
+    }
+
+    /* footer */
+
+     .footerplayimg img{
+        width: 35%;
+        height: 30%;
+     }
+
+     .parent{
+        width: 60%;
+        margin: 0;
+     }
+
+}
+
+@media (max-width: 576px) {
+
+    .navigation{
+        margin-right: 10px;
+        display: flex;
+        width: 40%;
+    }
+
+    .deliverybutton{
+        display: none;
+    }
+
+    .logina{
+        display: none;
+    }
+
+    .navigation .useremblom{
+        display: inline;
+    }
+
+    .navigation .navlogin{
+        width: 40px;
+    }
+
+    .navigation .navsign{
+        width: 60%;
+        padding-right: 10px;
+    }
+
+    /* home */
+    
+    .homepage{
+        background-image: url(phone\ size.webp);
+    }
+
+    /* map */
+
+    .secondcolumn{
+        display: none;
+    }
+    
+    .mapheading h2{
+        font-size: 22px;
+        
+    }
+
+    .mapheading {
+        width: 100%;
+    }
+
+    .firstspot{
+        width: 100%;
+    }
+
+    .underspot{
+        padding-top: 20px;
+    }
+
+    /* footer */
+    
+     .paragraph{
+        padding-top: 10%;
+    }
+
+    .uberfooter{
+        padding-top: 10%;
+    } 
+
+    .footerdiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerimages{
+        width: 70%;
+    }
+
+
+    
+
+}
